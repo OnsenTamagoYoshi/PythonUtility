@@ -4,6 +4,6 @@ def rounding(num, round):
         after_rounding = num - (num % round)
     # 切り上げ
     else:
-        after_rounding = num - (num % round) + round)
+        after_rounding = num - (num % round) + round
     
     return after_rounding
